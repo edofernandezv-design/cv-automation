@@ -1,0 +1,163 @@
+/* Configuración General */
+:root {
+    --primary-gray: #4A4A4A;
+    --secondary-gray: #F2F2F2;
+    --accent-gray: #D9D9D9;
+    --text-dark: #333333;
+    --text-light: #666666;
+    --sidebar-width: 280px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    color: var(--text-dark);
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.cv-container {
+    width: 210mm; /* Ancho A4 */
+    min-height: 297mm;
+    background: white;
+    display: flex;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Sidebar */
+.cv-sidebar {
+    width: var(--sidebar-width);
+    background-color: var(--secondary-gray);
+    padding: 30px 20px;
+    border-right: 1px solid var(--accent-gray);
+}
+
+.profile-image-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cv-photo {
+    width: 150px;
+    height: 190px;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sidebar-section {
+    margin-bottom: 25px;
+}
+
+.sidebar-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--primary-gray);
+    border-bottom: 2px solid var(--accent-gray);
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.contact-list, .skills-list {
+    list-style: none;
+    font-size: 12px;
+}
+
+.contact-list li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    margin-right: 10px;
+    font-style: normal;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+/* Main Content */
+.cv-main {
+    flex: 1;
+    padding: 40px 40px 40px 30px;
+}
+
+.cv-header {
+    margin-bottom: 40px;
+}
+
+.user-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--primary-gray);
+    text-transform: uppercase;
+}
+
+.user-profession {
+    font-size: 18px;
+    color: var(--text-light);
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.section-title {
+    font-size: 16px;
+    color: var(--primary-gray);
+    border-bottom: 1px solid var(--accent-gray);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+/* Experience & Education Items */
+.experience-item, .education-item {
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+.job-meta {
+    font-size: 12px;
+    color: var(--text-light);
+    font-style: italic;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.job-description {
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+/* Footer & Firma */
+.cv-footer {
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.signature-line {
+    width: 200px;
+    border-bottom: 1px solid var(--text-dark);
+    margin: 40px 0 5px 0;
+}
+
+.signature-name {
+    font-style: italic;
+}
