@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .letter-container {
+            max-width: 800px; margin: 0 auto; background: white; padding: 40px; min-height: 1000px;
+        }
+        .letter-header {
+            border-bottom: 2px solid #333; padding-bottom: 20px; margin-bottom: 30px; display: flex; justify-content: space-between;
+        }
+        .sender-info h1 { margin: 0; font-size: 24px; color: #2c3e50; }
+        .sender-info p { margin: 2px 0; font-size: 14px; color: #666; }
+        .recipient-info { margin-top: 30px; margin-bottom: 40px; }
+        .letter-date { text-align: right; margin-bottom: 20px; font-weight: bold; }
+        .letter-subject { font-weight: bold; font-size: 18px; margin-bottom: 20px; color: #2c3e50; }
+        .letter-body { font-size: 11pt; line-height: 1.6; color: #333; text-align: justify; }
+        .letter-body p { margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <div class="letter-container">
+        <header class="letter-header">
+            <div class="sender-info">
+                <h1>Eduardo Fernandez</h1>
+                <p>edo.fernandezv.02@gmail.com</p>
+                <p>15731653947</p>
+                <p>Vorm Buchholz 3, Sinzig, 54389</p>
+            </div>
+        </header>
+
+        <div class="letter-date">
+            Sinzig, 25.2.2026
+        </div>
+
+        <div class="recipient-info">
+            <p><strong>LBS Landesbausparkasse</strong></p>
+            <p>Personalabteilung / Hiring Manager</p>
+        </div>
+
+        <div class="letter-subject">
+            Bewerbung als Kundenberater für Bausparen und Baufinanzierung (m/w/d)
+        </div>
+
+        <div class="letter-body">
+            <p>Sehr geehrte Damen und Herren,</p><p>mit großem Interesse habe ich die Stellenanzeige für die Position als Kundenberater für Bausparen und Baufinanzierung bei LBS Landesbausparkasse gelesen. Als leidenschaftlicher Vertriebsprofi bringe ich umfangreiche Erfahrung in der Kundenberatung sowie im Vertrieb von Finanzprodukten mit, was mir die Fähigkeit verleiht, umfassende und individuelle Beratung zu bieten.</p><p>Durch meine Mehrjahreserfahrung im Direktmarketing und als kaufmännischer Leiter habe ich nicht nur tiefgehende Kenntnisse in der Kundenakquise und -bindung, sondern auch in der Entwicklung effektiver Vertriebsstrategien gesammelt.  Ich habe stets die Belange meiner Kunden in den Mittelpunkt gestellt und dabei erfolgreich Mehrwert geschaffen und nachhaltige Beziehungen aufgebaut.</p><p>Die Herausforderungen im Bausparen und der Baufinanzierung erfordern ein hohes Maß an Empathie und Kommunikationsstärke, die ich in meiner bisherigen Laufbahn kontinuierlich erfolgreich angewendet habe. Ich freue mich darauf, diese Fähigkeiten in Ihrem Unternehmen einzusetzen, um gemeinsam die Zufriedenheit und das Wachstum Ihrer Kunden zu fördern.</p><p>Ich bin motiviert, mich den neuen Herausforderungen zu stellen und Teil Ihres engagierten Teams zu werden. Herzlichen Dank für Ihre Zeit und Überlegung. Ich bin gespannt auf die Möglichkeit, mich mit Ihnen über meine Erfahrungen und Ideen auszutauschen.</p><p>Mit freundlichen Grüßen,<br>Eduardo Andrés Fernández Vergara<br>Vorm Buchholz 3 • 53489 Sinzig<br>0157 – 316 539 47 • edo.fernandezv@gmail.com</p>
+        </div>
+
+        <div class="letter-footer" style="margin-top: 50px;">
+            <p>Mit freundlichen Grüßen,</p>
+            <br>
+            <p>Eduardo Fernandez</p>
+        </div>
+    </div>
+</body>
+</html>
